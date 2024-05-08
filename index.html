@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controles de video personalizados</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <video id="myVideo" controls width="640" height="360">
+    <source src="./mi-videos/BERLIN  FELICITÀ.mp4" type="video/mp4">
+    <source src="./mi-videos/BERLIN  FELICITÀ.webm" type="video/webm">
+    <p>Tu navegador no es compatible con video HTML5.</p>
+  </video>
+
+  <div id="controles">
+    <button id="play">Reproducir</button>
+    <button id="pause">Pausar</button>
+    <button id="mute">Silenciar</button>
+    <button id="fullscreen">Pantalla completa</button>
+    <a href="./mi-videos/BERLIN  FELICITÀ.mp4" download="BERLIN FELICITÀ.mp4">Descargar video</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
